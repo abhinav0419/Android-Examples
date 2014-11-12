@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/uploadButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Click To Upload File" />
+
+    <TextView
+        android:id="@+id/messageText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/showimage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

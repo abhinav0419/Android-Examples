@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EverLife_proj</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_grid_layout">GridLayoutActivity</string>
+    <string name="title_activity_note_create">NoteCreateActivity</string>
+    <string name="title_activity_notes_list">NotesListActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_eventlist">EventlistActivity</string>
+    <string name="title_activity_task_create">TaskCreateActivity</string>
+    <string name="title_activity_task_list">TaskListActivity</string>
+    <string name="title_activity_recipe_create">RecipeCreateActivity</string>
+    <string name="title_activity_recipe_list">RecipeListActivity</string>
+    <string name="title_activity_audio_main">AudioMainActivity</string>
+    <string name="title_activity_audio_upload">AudioUploadActivity</string>
+    <string name="title_activity_video_main">VideoMainActivity</string>
+    <string name="title_activity_video_upload">VideoUploadActivity</string>
+    <string name="title_activity_image_main">ImageMainActivity</string>
+    <string name="title_activity_image_upload">ImageUploadActivity</string>
+    <string name="title_activity_current_location">CurrentLocationActivity</string>
+    <string name="title_activity_contact_fetch">ContactFetchActivity</string>
+    <string name="title_activity_contact_retrive">ContactRetriveActivity</string>
+
+    <string-array name="view">
+        <item>List</item>
+        <item>Grid</item>
+    </string-array>
+
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="title_activity_reset_pass">ResetPassActivity</string>
+    <string name="title_activity_grid_list">GridListActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_signup">SignupActivity</string>
+
+</resources>

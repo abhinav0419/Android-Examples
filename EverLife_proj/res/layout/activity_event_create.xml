@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Name" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/edt_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Description" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/edt_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Location" >
+    </EditText>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/btn_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Set Date" />
+
+        <Button
+            android:id="@+id/btn_date_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/btn_time_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/btn_time"
+            android:layout_alignParentRight="true"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/btn_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/btn_date"
+            android:layout_marginTop="30dp"
+            android:text="Set Time" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/btn_cncl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="Cancle" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Settings" >
+        
+        <ListPreference
+            android:dialogTitle="Select Your View"
+            android:entries="@array/view"
+            android:entryValues="@array/view"
+            android:key="ListGrid"
+            android:title="Change View" />
+
+        <Preference
+            android:key="reset"
+            android:title="Reset Password" />
+         <Preference
+            android:key="wallpaper"
+            android:title="Set Wallpaper" />
+        <Preference
+            android:key="About"
+            android:title="About" />
+        <Preference
+            android:key="Help"
+            android:title="Help" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

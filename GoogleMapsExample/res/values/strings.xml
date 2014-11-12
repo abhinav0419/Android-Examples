@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">GoogleMapsExample</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_google_maps_example">GoogleMapsExampleActivity</string>
+
+</resources>

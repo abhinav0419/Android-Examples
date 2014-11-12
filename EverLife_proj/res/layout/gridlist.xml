@@ -1,0 +1,242 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+
+    <!-- First Row -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/Home_audio"
+                android:layout_width="90dip"
+                android:layout_height="90dip"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/music"
+                android:background="@null" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Home_audio"
+                android:layout_centerHorizontal="true"
+                android:text="Audio"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/Home_contact"
+                android:layout_width="90dip"
+                android:layout_height="90dip"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/contact" 
+                android:background="@null" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Home_contact"
+                android:layout_centerHorizontal="true"
+                android:text="Contact"
+               />
+        </RelativeLayout>
+        
+         <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/Home_event"
+                android:layout_width="90dip"
+                android:layout_height="90dip"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/event" 
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below= "@id/Home_event"
+                android:layout_centerHorizontal="true"
+                android:text="Event"
+                />
+        </RelativeLayout>
+        
+    </LinearLayout>
+    <!-- Second Row -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/Home_img"
+                android:layout_width="100dip"
+                android:layout_height="100dip"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/image" 
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Home_img"
+                android:layout_centerHorizontal="true"
+                android:text="Image"
+               />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/Home_currentlocation"
+                android:layout_width="90dip"
+                android:layout_height="90dip"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/pathfinder" 
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Home_currentlocation"
+                android:layout_centerHorizontal="true"
+                android:text="Current Location"
+                />
+        </RelativeLayout>
+        
+         <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/home_note"
+                android:layout_width="90dip"
+                android:layout_height="90dip"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/notes123" 
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/home_note"
+                android:layout_centerHorizontal="true"
+                android:text="Note"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+    <!-- Third Row -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/Home_recipe"
+                android:layout_width="90dip"
+                android:layout_height="90dip"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/cook"
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Home_recipe"
+                android:layout_centerHorizontal="true"
+                android:text="Recipe"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/Home_task"
+                android:layout_width="90dip"
+                android:layout_height="90dip"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/task"
+                android:background="@null" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Home_task"
+                android:layout_centerHorizontal="true"
+                android:text="Task"
+               />
+        </RelativeLayout>
+        
+         <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/Home_video"
+                android:layout_width="90dip"
+                android:layout_height="90dip"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_videos" 
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Home_video"
+                android:layout_centerHorizontal="true"
+                android:text="Video"
+               />
+        </RelativeLayout>
+    </LinearLayout>
+    
+
+</LinearLayout>

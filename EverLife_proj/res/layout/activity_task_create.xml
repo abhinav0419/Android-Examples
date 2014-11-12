@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:ems="10" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editName"
+        android:layout_alignBottom="@+id/editName"
+        android:layout_alignParentLeft="true"
+        android:text="Name"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/btn_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editDes"
+        android:layout_marginTop="56dp"
+        android:text="Date" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_date"
+        android:layout_alignBottom="@+id/btn_date"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="41dp"
+        android:text="DD/MM/YYYY"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/btn_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="Time" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_date"
+        android:layout_centerVertical="true"
+        android:text="HH:MM"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editDes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editName"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <TextView
+        android:id="@+id/tv_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editDes"
+        android:layout_alignBottom="@+id/editDes"
+        android:layout_alignParentLeft="true"
+        android:text="Description"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/btn_cancle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="42dp"
+        android:layout_toRightOf="@+id/tv_time"
+        android:text="Cancle" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_cancle"
+        android:layout_alignBottom="@+id/btn_cancle"
+        android:layout_toLeftOf="@+id/editDes"
+        android:text="Save" />
+
+   <!-- -<TextView
+        android:id="@+id/tv_rmnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btn_time"
+        android:layout_marginTop="36dp"
+        android:text="Reminder"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+        android:id="@+id/spn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_time"
+        android:layout_alignTop="@+id/tv_rmnd" /> --> 
+
+</RelativeLayout>
